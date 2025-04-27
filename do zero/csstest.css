@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(0, 22, 121);
+}
+
+h1 {
+    background-color: blue;
+    color: aqua;
+    text-align: center;
+}
+
+p {
+    background-color: blue;
+    color: aqua;
+    font-weight: bold; 
+}
+
+img {
+    height: 300px;
+}
+
+
+li.python {
+    background-color: rgb(55, 55, 214); 
+}
+
+li.postgresql {
+    background-color: aqua;
+}
+
+li.javascript {
+    background-color: yellow;
+}
