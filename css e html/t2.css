@@ -18,5 +18,23 @@ img {
     border-radius: 20px;
     box-shadow: 0px 20px 30px rgba(255, 10, 10);
     margin: 20px auto;
+}
 
+div.butao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: red;
+    width: 100px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 25px auto;
+    box-shadow: 0px 15px 20px rgb(129, 0, 0);
+}
+
+button:hover {
+    background-color: blue;
 }
