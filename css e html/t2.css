@@ -1,5 +1,5 @@
 h1 {
-    width: 1000px; /*largura -> width */
+    width: 800px; /*largura -> width */
     height: 50px; /* altura -> heigth */
     text-align: center; /* centraliza o texto */
     background-color: black;
@@ -7,4 +7,16 @@ h1 {
     border-radius: 20px; /* borda */
     box-shadow: 0px 10px 15px  rgba(255, 10, 10); /* sombra */
     margin: 10px auto; /* margens se ajustam */
+}
+div.divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px rgba(255, 10, 10);
+    margin: 20px auto;
+
 }
