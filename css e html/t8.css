@@ -10,7 +10,6 @@ body {
     margin: 25% auto;
     flex-direction: column;
     flex-wrap: wrap;
-    content-visibility: 10px;
 }
 
 h1 {
@@ -20,9 +19,11 @@ h1 {
 }
 
 p {
+    padding-left: 10px;
+    padding-top: 10px;
 
     width: 250px;
-    height: 35px;
+    height: 30px;
     background-color: rgb(56, 58, 66);
     color: rgb(202, 181, 181);
     text-size-adjust:unset;
@@ -32,6 +33,7 @@ p {
 }
 
 button {
+    
     background-color: rgb(75, 194, 194);
     color: white;
     width: 250px;
