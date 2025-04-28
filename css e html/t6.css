@@ -1,10 +1,14 @@
 body {
     background-image: linear-gradient(blue, purple, violet, pink);
-    transition: all 1s ease;
+    background-size: 400% 400%;
+    background-position: center center;
+    transition: background-size 3s ease, background-position 3s ease;
 }
 
 body:hover {
     background-image: linear-gradient(red, blue, aqua);
+    background-size: 100% 100%;
+    background-position: left top;
 }
 
 div {
