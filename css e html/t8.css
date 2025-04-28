@@ -1,10 +1,41 @@
 body {
-    /* background-image: linear-gradient(pink, purple); */
-    background-color: aqua;
+    background-image: linear-gradient(rgb(58, 13, 58), rgb(34, 34, 78));
+    
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 25% auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    content-visibility: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 300%;
+    margin: auto;
+}
+
+p {
+
+    width: 250px;
+    height: 35px;
+    background-color: rgb(56, 58, 66);
+    color: rgb(202, 181, 181);
+    text-size-adjust:unset;
+    border-radius: 0.5cap;
+    border-style: groove;
+    border-color: rgb(63, 63, 63);
+}
+
+button {
+    background-color: rgb(75, 194, 194);
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 0.5cap;
+
 }
