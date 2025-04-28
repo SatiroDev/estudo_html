@@ -17,6 +17,7 @@ h1 {
     font-size: 300%;
     margin: 1% auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 p {
@@ -47,15 +48,17 @@ button {
 }
 
 button:hover {
-
+    background-image: linear-gradient(rgb(185, 4, 185), purple, rgb(66, 0, 66), black);
     color: blueviolet;
     box-shadow: 0vh 0vh 1vh 0.1vh rgb(255, 255, 255);
-    background-image: linear-gradient(black, purple);
+    width: 275px;
     
 }
 
 p:hover {
-    background-image: linear-gradient(black, purple);
+    width: 275px;
+    background-image: linear-gradient(rgb(185, 4, 185), purple, rgb(66, 0, 66), black);
     color: blueviolet;
     box-shadow: 0vh 0vh 1vh 0.1vh rgb(255, 255, 255);
+
 }
