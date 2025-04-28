@@ -15,13 +15,13 @@ body {
 h1 {
     color: white;
     font-size: 300%;
-    margin: auto;
+    margin: 4% auto;
 }
 
 p {
+    margin: 0.3%;
     padding-left: 10px;
     padding-top: 10px;
-
     width: 250px;
     height: 30px;
     background-color: rgb(56, 58, 66);
@@ -33,11 +33,11 @@ p {
 }
 
 button {
-    
-    background-color: rgb(75, 194, 194);
+    margin: 0.3%;
+    background-color: rgb(74, 176, 216);
     color: white;
-    width: 250px;
-    height: 35px;
+    width: 265px;
+    height: 40px;
     border-radius: 0.5cap;
 
 }
