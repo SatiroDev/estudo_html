@@ -44,7 +44,7 @@ button {
     width: 265px;
     height: 40px;
     border-radius: 0.5cap;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     
 }
 
@@ -52,7 +52,7 @@ h1:hover {
     background: linear-gradient(rgb(185, 4, 185), purple, rgb(66, 0, 66), black);
     background-clip: text;
     color: transparent;
-    text-shadow: rgb(255, 255, 255);
+  
 
 }
 
@@ -60,7 +60,7 @@ button:hover {
     background-image: linear-gradient(rgb(185, 4, 185), purple, rgb(66, 0, 66), black);
     color: blueviolet;
     box-shadow: 0vh 0vh 1vh 0.1vh rgb(255, 255, 255);
-    width: 275px;
+    width: 280px;
     
 }
 
