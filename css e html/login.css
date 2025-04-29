@@ -34,7 +34,52 @@ h1 {
 
     font: 1em sans-serif;
     transform: translate();
-    color: #ffffff;
-    font-size: 85%;
+    color: #000000;
+    font-size: 100%;
+    margin: 2% 3%;
+    transition: all 1s ease;
+}
+.paragrafo2 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5vh;
+    width: 25rem;
+    height: 2rem;
+    margin: 7%;
+}
+
+.p2 {
+    font: 1em sans-serif;
+    color: #000000;
+    font-size: 100%;
+    margin: 2% 3%;
+    transition: all 1s ease;
+}
+
+button {
+    width: 25rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 5vh;
+    border:0cap;
+    transition: all 1s ease;
+}
+
+.p1:hover {
     margin: -5% 3%;
+    color: white;
+    font-size: 85%;
+}
+
+.p2:hover {
+    margin: -5% 3%;
+    color: white;
+    font-size: 85%;
+}
+
+button:hover {
+    width: 26rem;
+    height: 2.5rem;
+    font-size: 100%;
+    box-shadow: 0rem 0rem 0.1rem 0.2rem rgb(255, 216, 223);
 }
