@@ -12,12 +12,23 @@ body {
     margin: 5% auto;
 }
 
-.apresent {
+.alinhar {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: black;
+    width: 65vh;
+    height: 80vh;
+    margin-right: auto;
+
+}
+/* .apresent {
     background-color: rgb(34, 34, 117);
     width: 75vh;
     height: 30vh;
     text-align: center;
     color: white;
     font-size: 10vh;
+    margin-right: auto;
 
-}
+} */
