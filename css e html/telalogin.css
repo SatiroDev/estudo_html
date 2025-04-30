@@ -4,5 +4,10 @@ body {
 
 .container {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 97, 97);
+    width: 125vh;
+    height: 80vh;
+    margin: 5% auto;
 }
