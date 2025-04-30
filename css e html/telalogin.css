@@ -21,17 +21,20 @@ body {
     height: 80vh;
     margin-right: auto;
     text-align:left;
-    ;
-
 }
+
 .apresent {
     background-color: rgb(34, 34, 117);
     width: 65vh;
     height: 80vh;
-    
     color: white;
-    font-size: 10vh;
-    
     margin-right: auto;
 
+}
+
+.saudacao {
+    font-size: 8vh;
+    margin: 27vh 10vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
