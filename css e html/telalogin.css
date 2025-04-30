@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(58, 87, 218);
+    background-image: linear-gradient(to right, rgb(79, 97, 182), rgb(27, 27, 175));
 }
 
 .container {
@@ -10,6 +10,7 @@ body {
     width: 50rem;
     height: 30rem;
     margin: 10% auto;
+    box-shadow: 0rem 0rem 2rem 1rem rgb(0, 0, 255);
 }
 
 .alinhar {
@@ -24,19 +25,22 @@ body {
 }
 
 .apresent {
-    background-color: rgb(34, 34, 117);
+    background-image: linear-gradient(to right, rgb(79, 97, 182), rgb(27, 27, 175));
     width: 25rem;
     height: 30rem;
     color: white;
     margin-right: auto;
-
 }
 
 .saudacao {
     font-size: 4rem;
     margin: 10rem 2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.mensagem {
+    margin: -8rem 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .login {
@@ -45,14 +49,15 @@ body {
     height: 30rem;
     color: white;
     margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .email {
     background-color: white;
-    color:rgb(125, 143, 223);
+    color: rgb(79, 97, 182);
     width: 20rem;
     height: 3rem;
-    border-color: rgb(125, 143, 223);
+    border-color: rgb(79, 97, 182);
     border-style:groove;
     border-radius: 0.3rem;
     margin: 7rem 2rem;
@@ -61,14 +66,15 @@ body {
 .emailsenha {
     padding: 0.5rem;
     font-size: 0.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .senha {
     background-color: white;
-    color:rgb(125, 143, 223);
+    color:rgb(79, 97, 182);
     width: 20rem;
     height: 3rem;
-    border-color: rgb(125, 143, 223);
+    border-color: rgb(79, 97, 182);
     border-style:groove;
     border-radius: 0.3rem;
     margin: -6.5rem 2rem;
@@ -79,10 +85,20 @@ body {
 }
 
 .btlogin {
-    background-color: rgb(125, 143, 223);
+    background-color: rgb(79, 97, 182);
     color: white;
     border-color: transparent;
     width: 5rem;
     height: 1.5rem;
-
+    border-radius: 0.3rem;
 }
+
+.sign {
+    background-color: white;
+    color: rgb(79, 97, 182);
+    border-color: rgb(79, 97, 182);
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+}
+
