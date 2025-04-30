@@ -77,3 +77,12 @@ body {
 .botoes {
     margin: 10rem 2rem;
 }
+
+.btlogin {
+    background-color: rgb(125, 143, 223);
+    color: white;
+    border-color: transparent;
+    width: 5rem;
+    height: 1.5rem;
+
+}
