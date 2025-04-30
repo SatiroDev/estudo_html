@@ -7,9 +7,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(97, 97, 97);
-    width: 125vh;
-    height: 80vh;
-    margin: 5% auto;
+    width: 50rem;
+    height: 30rem;
+    margin: 10% auto;
 }
 
 .alinhar {
@@ -17,24 +17,24 @@ body {
     justify-content: start;
     align-items: start;
     background-color: black;
-    width: 65vh;
-    height: 80vh;
+    width: 25rem;
+    height: 30rem;
     margin-right: auto;
     text-align:left;
 }
 
 .apresent {
     background-color: rgb(34, 34, 117);
-    width: 65vh;
-    height: 80vh;
+    width: 25rem;
+    height: 30rem;
     color: white;
     margin-right: auto;
 
 }
 
 .saudacao {
-    font-size: 8vh;
-    margin: 27vh 10vh;
+    font-size: 4rem;
+    margin: 10rem 2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
