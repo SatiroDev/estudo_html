@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: start;
-    background-color: black;
+    background-color: rgb(134, 26, 26);
     width: 25rem;
     height: 30rem;
     margin-right: auto;
@@ -37,4 +37,28 @@ body {
     margin: 10rem 2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+
+.login {
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    height: 30rem;
+    color: white;
+    margin-right: auto;
+}
+
+.email {
+    background-color: white;
+    color:rgb(83, 105, 206);
+    width: 20rem;
+    height: 3rem;
+    border-color: rgb(83, 105, 206);
+    border-style:groove;
+    border-radius: 0.3rem;
+    margin: 7rem 2rem;
+}
+
+.emailaddress {
+    padding: 0.5rem;
+    font-size: 0.8rem;
 }
