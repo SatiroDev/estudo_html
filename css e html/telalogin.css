@@ -49,16 +49,31 @@ body {
 
 .email {
     background-color: white;
-    color:rgb(83, 105, 206);
+    color:rgb(125, 143, 223);
     width: 20rem;
     height: 3rem;
-    border-color: rgb(83, 105, 206);
+    border-color: rgb(125, 143, 223);
     border-style:groove;
     border-radius: 0.3rem;
     margin: 7rem 2rem;
 }
 
-.emailaddress {
+.emailsenha {
     padding: 0.5rem;
     font-size: 0.8rem;
+}
+
+.senha {
+    background-color: white;
+    color:rgb(125, 143, 223);
+    width: 20rem;
+    height: 3rem;
+    border-color: rgb(125, 143, 223);
+    border-style:groove;
+    border-radius: 0.3rem;
+    margin: -6.5rem 2rem;
+}
+
+.botoes {
+    margin: 10rem 2rem;
 }
