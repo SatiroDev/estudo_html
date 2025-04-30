@@ -20,15 +20,18 @@ body {
     width: 65vh;
     height: 80vh;
     margin-right: auto;
+    text-align:left;
+    ;
 
 }
-/* .apresent {
+.apresent {
     background-color: rgb(34, 34, 117);
-    width: 75vh;
-    height: 30vh;
-    text-align: center;
+    width: 65vh;
+    height: 80vh;
+    
     color: white;
     font-size: 10vh;
+    
     margin-right: auto;
 
-} */
+}
