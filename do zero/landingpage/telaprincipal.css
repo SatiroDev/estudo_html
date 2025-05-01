@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
 }
 
-.cabecalho {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -42,20 +42,37 @@ body {
     border-radius: 5% 35%;
 }
 
-.principalmeio {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    align-content: center;
+
     width: 206vh;
     height: 70vh;
+
 
 }
 
 .imagemgit {
-    width: 17%;
-    height: 50%;
+    width: 10%;
+    height: 30%;
     border-radius: 50%;
-    gap: 10%;
+}
+
+.nome {
+    text-align: center;
+    font-size: 400%;
+    width: 20%;
+    height: 15%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(192, 80, 6);
+}
+
+.subtitulo {
+    color: white;
+    margin-top: -3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
