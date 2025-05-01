@@ -36,7 +36,6 @@ body {
 .saudacao {
     font-size: 4rem;
     margin: 10rem 2rem;
-    
 }
 
 .mensagem {
@@ -48,7 +47,6 @@ body {
     width: 25rem;
     height: 30rem;
     color: white;
-    margin-right: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
