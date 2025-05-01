@@ -10,9 +10,12 @@ body {
     gap: 5%;
     width: 206vh;
     height: 7vh;
-
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
 .home {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -70,6 +73,7 @@ body {
     border-radius: 50%;
     margin-top: -15%;
 }
+
 .imagemgit {
     width: 15rem;
     height: 15rem;
