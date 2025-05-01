@@ -1,0 +1,179 @@
+
+body {
+    background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 5%;
+    width: 206vh;
+    height: 7vh;
+    transition: all 1s ease;
+}
+
+.home {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.about {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.portofolio {
+    color: rgb(192, 80, 6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1s ease;
+}
+
+.contact {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.botaocontato {
+    border-color: rgb(192, 80, 6);
+    background-color: transparent;
+    color: rgb(192, 80, 6);
+    width: 10%;
+    height: 80%;
+    border-radius: 5% 35%;
+    transition: all 0.5s ease;
+}
+
+.pagina3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206vh;
+    height: 90vh;
+    border-top: 0.1vh solid;
+    border-color: rgb(192, 80, 6);
+}
+
+.tecnologiasusadas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45vh;
+    height: 63.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tecnologias {
+    color: white;
+    
+}
+.py {
+    width: 80%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(26, 26, 133), rgb(141, 141, 29));
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    border-radius: 5vh;
+    transition: all 0.2s ease;
+    padding: 5%;
+}
+
+.postgresql {
+    width: 80%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(26, 26, 133), rgb(15, 13, 167));
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    border-radius: 5vh;
+    transition: all 0.2s ease;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+
+.js {
+    width: 80%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(147, 177, 40), rgb(179, 216, 13));
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    border-radius: 5vh;
+    transition: all 0.2s ease;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+.html {
+    width: 80%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(202, 127, 29), rgb(255, 81, 0));
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    border-radius: 5vh;
+    transition: all 0.2s ease;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+.css {
+    width: 80%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(29, 118, 202), rgb(0, 47, 255));
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    border-radius: 5vh;
+    transition: all 0.2s ease;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+
+.py:hover {
+    width: 85%;
+    height: 65%;
+    background-image: linear-gradient(to right, rgb(3, 3, 92),rgb(61, 61, 165), rgb(255, 255, 0));
+    border-radius: 0vh;
+    box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
+}
+
+.postgresql:hover {
+    width: 85%;
+    height: 65%;
+    background-image: linear-gradient(to right, rgb(0, 0, 117), rgb(15, 13, 167));
+    border-radius: 0vh;
+    box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
+}
+
+.js:hover {
+    width: 85%;
+    height: 65%;
+    background-image: linear-gradient(to right, rgb(164, 190, 14), rgb(208, 255, 1));
+    border-radius: 0vh;
+    box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
+}
+
+.html:hover {
+    width: 85%;
+    height: 65%;
+    background-image: linear-gradient(to right, rgb(255, 145, 0), rgb(255, 81, 0));
+    border-radius: 0vh;
+    box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
+}
+
+.css:hover {
+    width: 85%;
+    height: 65%;
+    background-image: linear-gradient(to right, rgb(0, 116, 224), rgb(0, 35, 190));
+    border-radius: 0vh;
+    box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
+}
