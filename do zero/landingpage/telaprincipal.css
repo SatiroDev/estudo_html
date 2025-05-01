@@ -8,7 +8,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 5%;
-    width: 200vh;
+    width: 206vh;
     height: 7vh;
 
 }
@@ -47,4 +47,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
+    width: 206vh;
+    height: 70vh;
+
+}
+
+.imagemgit {
+    width: 17%;
+    height: 50%;
+    border-radius: 50%;
+    gap: 10%;
 }
