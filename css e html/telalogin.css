@@ -81,7 +81,7 @@ body {
     margin: -6.5rem 2rem;
     transition: all 0.3s ease;
 }
-.escolharevelarsenha {
+.caixarevelarsenha {
     width: 0.7rem;
     height: 0.8rem;
     margin: 7rem 2rem;
@@ -99,8 +99,16 @@ body {
 
 }
 
+.senhaesquecida {
+    width: 10rem;
+    height: 1rem;
+    margin: 7.2rem 15rem;
+    color: rgb(79, 97, 182);
+    transition: all 0.3s ease;
+}
+
 .botoes {
-    margin: 10rem 2rem;
+    margin: 13rem 2rem;
 }
 
 .btlogin {
@@ -124,7 +132,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     transition: all 0.5s ease;
 }
-.escolharevelarsenha:hover {
+.caixaevelarsenha:hover {
     width: 0.9rem;
     height: 1rem;
     box-shadow: 0rem 0rem 0.4rem 0.1rem rgb(65, 65, 151);
