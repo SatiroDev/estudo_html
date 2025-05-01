@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
+    background-image: linear-gradient(to right, rgb(126, 124, 124), rgb(70, 69, 69), rgb(49, 49, 49));
 }
 
 .header {
@@ -14,13 +14,13 @@ body {
 }
 
 .home {
-    color: rgb(192, 80, 6);
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all 0.5s ease;
 }
 
 .about {
-    color: white;
+    color: rgb(192, 80, 6);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all 0.5s ease;
 }
@@ -47,44 +47,117 @@ body {
     transition: all 0.5s ease;
 }
 
-.main {
+.pagina2 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
     width: 206vh;
-    height: 70vh;
+    height: 90vh;
     border-top: 0.1vh solid;
     border-color: rgb(192, 80, 6);
 }
 
-.imagemgit {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150vh;
+    height: 70vh;
+    margin-top: -10%;
+    transition: all 1s ease;
+}
+.minhaimagem {
+    width: 40%;
+    height: 85%;
+    margin-right: 55%;
+    margin-top: -7%;
+    border-radius: 1%;
+    box-shadow: 0vh 0vh 0.5vh 0.4vh rgb(0, 0, 0);
+    transition: all 1s ease;
 }
 
-.nome {
-    text-align: center;
-    font-size: 400%;
-    width: 20%;
-    height: 15%;
-
+.informacoes {
+    margin-left: 45%;
+    margin-top: -40%;
+    width: 80vh;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.descobrir {
+    font-size: 150%;
     color: rgb(192, 80, 6);
 }
 
-.subtitulo {
+.sobremim {
     color: white;
     margin-top: -3%;
+}
+
+.texto {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.infopessoal {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    border-style: groove;
+    border-color:  rgb(192, 80, 6);
+    width: 78vh;
+    height: 8vh;
+    margin-left: 45%;
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.nomeidade {
+    width: 40vh;
+    height: auto;
+}
+.nome {
+    padding: 2%;
+}
+.idade {
+    padding: 2%;
+}
+
+.enderecoexp {
+    width: 40vh;
+    height: auto;
+}
+
+.endereco {
+    padding: 2%;
+}
+
+.experiencia {
+    padding: 2%;
+}
+
+
 
 .header:hover {
     width: 206vh;
     height: 9vh;
 }
+
+
+.container:hover {
+    width: 160vh;
+    height: 75vh;
+}
+
+.minhaimagem:hover {
+    width: 42%;
+    height: 88%;
+    box-shadow: 0vh 0vh 0.8vh 0.6vh rgb(0, 0, 0);
+}
+
+
 .home:hover {
     color: rgb(192, 80, 6);
     font-size: 120%;
@@ -110,5 +183,3 @@ body {
     height: 85%;
     box-shadow: 0rem 0rem 0.1rem 0.1rem rgb(255, 255, 255);
 }
-
-
