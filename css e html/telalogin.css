@@ -81,7 +81,25 @@ body {
     margin: -6.5rem 2rem;
     transition: all 0.3s ease;
 }
-
+.escolharevelarsenha {
+    width: 0.7rem;
+    height: 0.8rem;
+    margin: 7rem 2rem;
+    border-color: rgb(79, 97, 182);
+    border-radius: 0.3rem;
+    border-style: groove;
+    transition: all 0.3s ease;
+}
+/* .revelarsenha {
+    width: 0.7rem;
+    height: 0.8rem;
+    color: rgb(0, 0, 0);
+    border-color: rgb(79, 97, 182);
+    border-radius: 0.3rem;
+    border-style: groove;
+    transition: all 0.3s ease;
+    margin: 8rem 10rem;
+} */
 .botoes {
     margin: 10rem 2rem;
 }
@@ -107,7 +125,12 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     transition: all 0.5s ease;
 }
+.escolharevelarsenha:hover {
+    width: 0.9rem;
+    height: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0.1rem rgb(65, 65, 151);
 
+}
 .email:hover {
     width: 20.5rem;
     height: 3.5rem;
