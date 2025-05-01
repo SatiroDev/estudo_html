@@ -1,10 +1,50 @@
 body {
-    background-image: linear-gradient(to left, rgb(64, 8, 138), rgb(37, 7, 121), rgb(56, 12, 56));
+    background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
 }
 
 .cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     gap: 5%;
+    width: 200vh;
+    height: 7vh;
+
+}
+
+.home {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portofolio {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botaocontato {
+    border-color: rgb(192, 80, 6);
+    background-color: transparent;
+    color: rgb(192, 80, 6);
+    width: 10%;
+    height: 80%;
+    border-radius: 5% 35%;
+}
+
+.principalmeio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
