@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to left, rgb(64, 8, 138), rgb(37, 7, 121), rgb(56, 12, 56));
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5%;
+}
