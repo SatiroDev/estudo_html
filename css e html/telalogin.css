@@ -80,6 +80,7 @@ body {
     border-radius: 0.3rem;
     margin: -6.5rem 2rem;
     transition: all 0.3s ease;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .caixarevelarsenha {
     width: 0.7rem;
@@ -105,10 +106,11 @@ body {
     margin: 7.2rem 15rem;
     color: rgb(79, 97, 182);
     transition: all 0.3s ease;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .botoes {
-    margin: 13rem 2rem;
+    margin: -3rem 2rem;
 }
 
 .btlogin {
@@ -132,7 +134,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     transition: all 0.5s ease;
 }
-.caixaevelarsenha:hover {
+.caixarevelarsenha:hover {
     width: 0.9rem;
     height: 1rem;
     box-shadow: 0rem 0rem 0.4rem 0.1rem rgb(65, 65, 151);
