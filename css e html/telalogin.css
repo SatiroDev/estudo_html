@@ -90,16 +90,15 @@ body {
     border-style: groove;
     transition: all 0.3s ease;
 }
-/* .revelarsenha {
-    width: 0.7rem;
-    height: 0.8rem;
-    color: rgb(0, 0, 0);
-    border-color: rgb(79, 97, 182);
-    border-radius: 0.3rem;
-    border-style: groove;
-    transition: all 0.3s ease;
-    margin: 8rem 10rem;
-} */
+
+.revelarsenha {
+    width: 10rem;
+    height: 1rem;
+    color: rgb(79, 97, 182);
+    margin: -8.2rem 3.5rem;
+
+}
+
 .botoes {
     margin: 10rem 2rem;
 }
