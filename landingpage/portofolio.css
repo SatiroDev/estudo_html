@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
 }
@@ -51,7 +56,7 @@ body {
 
 .pagina3 {
     position:absolute;
-    background-color: rgb(192, 80, 6);
+    background-image: linear-gradient(to left, rgb(40, 40, 46), rgb(64, 64, 94), rgb(61, 52, 61));
     width: 205vh;
     height: 90vh;
     border-style: groove;
@@ -65,80 +70,97 @@ body {
 
 
 .tecnologiasusadas {
-    border-style: groove;
     display: flex;
     justify-content: center;
     align-items: center;
+
     flex-direction: column;
     width: 40%;
     height: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
+
 }
+
+.tecs {
+    width: 50%;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+
+    flex-direction: column;
+}
+
+
 .tecnologias {
+    text-align: center;
     color: white;
+
 }
+
+
 .py {
-    width: 80%;
-    height: 100%;
+    padding: 10%;
+    width: 60%;
+    height: 15%;
     background-image: linear-gradient(to right, rgb(26, 26, 133), rgb(141, 141, 29));
     text-align: center;
     font-size: 120%;
     color: white;
     border-radius: 5vh;
     transition: all 0.2s ease;
-
-
 }
 
 .postgresql {
-    width: 80%;
-    height: 80%;
+    padding: 10%;
+    width: 60%;
+    height: 15%;
     background-image: linear-gradient(to right, rgb(26, 26, 133), rgb(15, 13, 167));
     text-align: center;
     font-size: 120%;
     color: white;
     border-radius: 5vh;
     transition: all 0.2s ease;
-
 }
 
 
 .js {
-    width: 50%;
-    height: 50%;
+    padding: 10%;
+    width: 60%;
+    height: 15%;
     background-image: linear-gradient(to right, rgb(147, 177, 40), rgb(179, 216, 13));
     text-align: center;
     color: white;
     font-size: 120%;
     border-radius: 5vh;
     transition: all 0.2s ease;
-
 }
 
 .html {
-    width: 50%;
-    height: 50%;
+    padding: 10%;
+    width: 60%;
+    height: 15%;
     background-image: linear-gradient(to right, rgb(202, 127, 29), rgb(255, 81, 0));
     text-align: center;
     color: white;
     font-size: 120%;
     border-radius: 5vh;
     transition: all 0.2s ease;
-
 }
 
 .css {
-    width: 50%;
-    height: 50%;
+    padding: 10%;
+    width: 60%;
+    height: 15%;
     background-image: linear-gradient(to right, rgb(29, 118, 202), rgb(0, 47, 255));
     text-align: center;
     font-size: 120%;
     color: white;
     border-radius: 5vh;
     transition: all 0.2s ease;
-
 }
 
 
@@ -150,35 +172,34 @@ body {
     border-style: groove;
 }
 .geral {
-    width: 50%;
-    height: 70%;
+    width: 70%;
+    height: 100%;
     border-style: groove;
     display: flex;
     justify-content:center;
     align-items:center;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
 
 .pai {
-
-    background-color: white;
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
+    
 
 }
 
 .filho {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    width: 35%;
-    height: 30%;
+    width: 50%;
+    height: 100%;
     flex-direction: column;
     
 
@@ -186,13 +207,16 @@ body {
 
 
 .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align:center;
-
     color: white;
     width: 100%;
-    height: 100%;
+    height: 55%;
     background-color: aquamarine;
     transition: all 0.2s ease;
+    
 }
 
 .descricao {
@@ -210,20 +234,18 @@ body {
     height: 86%;
 }
 
+
 .titulo:hover {
     transform: translateY(-50%);
 }
 
-.dec:hover {
-
+.descricao:hover {
     transform: translateY(85%);
     color: black;
     background-color: white;
 }
 
-.link1 {
-    font-size: 110%;
-}
+
 
 
 .descricao:hover {
@@ -233,7 +255,7 @@ body {
 }
 .py:hover {
     width: 85%;
-    height: 65%;
+    height: 35%;
     background-image: linear-gradient(to right, rgb(3, 3, 92),rgb(61, 61, 165), rgb(255, 255, 0));
     border-radius: 0vh;
     box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
@@ -241,7 +263,7 @@ body {
 
 .postgresql:hover {
     width: 85%;
-    height: 65%;
+    height: 35%;
     background-image: linear-gradient(to right, rgb(0, 0, 117), rgb(15, 13, 167));
     border-radius: 0vh;
     box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
@@ -249,7 +271,7 @@ body {
 
 .js:hover {
     width: 85%;
-    height: 65%;
+    height: 35%;
     background-image: linear-gradient(to right, rgb(164, 190, 14), rgb(208, 255, 1));
     border-radius: 0vh;
     box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
@@ -257,7 +279,7 @@ body {
 
 .html:hover {
     width: 85%;
-    height: 65%;
+    height: 35%;
     background-image: linear-gradient(to right, rgb(255, 145, 0), rgb(255, 81, 0));
     border-radius: 0vh;
     box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
@@ -265,7 +287,7 @@ body {
 
 .css:hover {
     width: 85%;
-    height: 65%;
+    height: 35%;
     background-image: linear-gradient(to right, rgb(0, 116, 224), rgb(0, 35, 190));
     border-radius: 0vh;
     box-shadow: 0vh 0vh 0.2vh 0.2vh rgb(0, 0, 0);
