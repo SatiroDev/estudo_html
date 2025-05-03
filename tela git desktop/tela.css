@@ -193,4 +193,13 @@ body {
     justify-content: center;
     align-items: center;
     border-style: groove;
+    flex-direction: column;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+
 }
