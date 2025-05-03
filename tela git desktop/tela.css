@@ -145,8 +145,8 @@ body {
     display: flex;
     justify-content: start;
     align-items: start;
-
-    width: 20%;
+    border-style: groove;
+    width: 24.5%;
     height: 100%;
     flex-direction: column;
 }
@@ -254,6 +254,6 @@ body {
 
 .meio-branco {
     border-style: groove;
-    width: 95%;
+    width: 98%;
     height: 55%;
 }
