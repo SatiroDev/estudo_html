@@ -90,22 +90,23 @@ body {
     justify-content: start;
     align-items: center;
     width: 100%;
-    height: 10%;
-    border-style: groove;
+    height: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .retangulo {
     display: flex;
     justify-content: start;
     align-items: center;
-    border-style: groove;
+    border: solid 0.1rem;
+    
     width: 25%;
     height: 100%;
 
 }
 
 .dicionario {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 10%;
     height: 100%;
     display: flex;
