@@ -246,10 +246,14 @@ body {
 }
 
 .quant-changes {
-
     width: 70%;
     height: 50%;
     padding-right: 20%;
     padding-bottom: 1.6%;
+}
 
+.meio-branco {
+    border-style: groove;
+    width: 95%;
+    height: 55%;
 }
