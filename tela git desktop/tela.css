@@ -205,6 +205,7 @@ body {
     height: 100%;
     border-style: groove;
     padding-left: 2%;
+    padding-right: 2%;
 
 }
 
@@ -217,4 +218,13 @@ body {
     border-color: rgb(94, 94, 94);
     width: 35%;
     height: 90%;
+    font-size: 1.2rem;
+}
+
+.filtro {
+    width: 60%;
+    height: 90%;
+    border-radius: 0 0.3rem 0.3rem 0;
+    border: solid 0.1rem;
+    border-color: rgb(94, 94, 94);
 }
