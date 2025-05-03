@@ -87,6 +87,28 @@ body {
 
 .segundo-cabecalho {
     display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border-style: groove;
+}
+
+.retangulo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-style: groove;
+    width: 25%;
+    height: 100%;
+
+}
+
+.dicionario {
+    font-size: 1.3rem;
+    width: 10%;
+    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
