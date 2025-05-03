@@ -187,3 +187,10 @@ body {
     padding-top: 2%;
     border-color: rgb(167, 167, 167);
 }
+
+.pai-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+}
