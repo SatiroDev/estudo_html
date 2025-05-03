@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    width: 208vh;
+    height: 47vw;
+    background-color: rgb(68, 192, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+}
+
+.container {
+    width: 60%;
+    height: 70%;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao {
+    border-style: groove;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5%;
+    
+}
+
+.nome-sessao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.logos {
+    display: flex;
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    
+}
+
+.twitch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(182, 182, 182);
+    border-width: 0.1rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(182, 182, 182);
+    border-width: 0.1rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(182, 182, 182);
+    border-width: 0.1rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+
+.tik-tok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(182, 182, 182);
+    border-width: 0.1rem;
+    border-style:solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+}
+.bem-vindo {
+    border-style: groove;
+    width: 50%;
+    height: 100%;
+}
+
