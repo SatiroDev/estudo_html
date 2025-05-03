@@ -192,7 +192,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: groove;
     flex-direction: column;
 }
 
@@ -200,6 +199,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: groove;
 
+}
+
+.logos {
+    border-radius: 0.3rem 0 0 0.3rem;
+    border: solid 0.1rem;
+    border-color: rgb(94, 94, 94);
 }
