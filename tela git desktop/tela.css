@@ -158,7 +158,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 5%;
-    padding-top: 1%;
+    padding-top: 1.2%;
 }
 
 .changes {
@@ -177,6 +177,7 @@ body {
     text-align: center;
     padding-top: 2%;
     border-color: rgb(167, 167, 167);
+    border-top: 0;
     
 }
 
@@ -187,6 +188,7 @@ body {
     text-align: center;
     padding-top: 2%;
     border-color: rgb(167, 167, 167);
+    border-top: 0;
 }
 
 .pai-filter {
@@ -256,6 +258,12 @@ body {
 }
 
 .meio-branco {
-    width: 98%;
+    width: 100%;
     height: 55%;
+    border: solid 0.1rem;
+    border-color:  rgb(167, 167, 167);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+
 }
