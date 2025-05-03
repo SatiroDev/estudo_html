@@ -6,11 +6,10 @@
 body {
     width: 208vh;
     height: 47vw;
-    background-color: #79b4ab;
+    background-image: linear-gradient(rgb(0, 255, 98), rgb(0, 255, 85));
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: groove;
 }
 
 .container {
@@ -22,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
+    box-shadow: 0rem 0rem 1rem 0.5rem rgb(136, 136, 136);
 }
 
 .sessao {
@@ -33,7 +33,6 @@ body {
     align-items: center;
     flex-direction: column;
     row-gap: 2%;
-
 }
 
 .nome-sessao {
@@ -153,22 +152,23 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.botao-inicar {
+.iniciar-sessao{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-
     width: 40%;
     height: 10%;
 }
 
-.iniciar-sessao {
+.botao-inicar {
     background-color: #04DEA2;
     width: 95%;
     height: 100%;
     border-radius: 0.5rem;
     border: 0;
+    color: white;
+    transition: all 0.3s ease;
 }
 
 
@@ -191,12 +191,39 @@ body {
 }
 
 .mensagem {
-    padding-top: 5%;
-    width: 50%;
-    height: 20%;
+    width: 65%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paragrafo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    font-size: 110%;
+}
+
+.botao-registrar {
+    width: 45%;
+    height: 13%;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border-width: 0.13rem;
+    border-color: white;
+    color: white;
+}
+
+.botao-inicar:hover {
+    width: 105%;
+    height: 110%;
+    box-shadow: 0rem 0rem 1rem 0.5rem rgb(136, 136, 136);
+    transition: all 0.5s ease;
+}
+
+.botao-registrar:hover {
+    width: 50%;
+    height: 15%;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
+
 }
