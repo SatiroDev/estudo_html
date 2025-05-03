@@ -45,8 +45,24 @@ body {
 
 .saida {
     display: flex;
-    justify-content: start;
+    justify-content: end;
     align-items: center;
     width: 50%;
     height: 100%;
+}
+
+.sair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.bx bx-x {
+    width: 100%;
+    height: 100%;
+    
 }
