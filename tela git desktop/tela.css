@@ -305,4 +305,6 @@ img {
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     border: solid 0.1rem;
     border-color:  rgb(167, 167, 167);
+    width: 75%;
+    height: 70%;
 }
