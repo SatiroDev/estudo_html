@@ -118,6 +118,22 @@ body {
 .informacao {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.campo-email {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 55%;
+    height: 8%;
+    column-gap: 5%;
+    padding-left: 3%;
+}
+
+.email {
+    border: 0;
+    background-color: rgb(240, 240, 240);
+}
 .bem-vindo {
     border-style: groove;
     width: 50%;
