@@ -19,6 +19,7 @@ body {
     background-color: blanchedalmond;
     flex-direction: column;
     border-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .cabecalho {
@@ -131,6 +132,38 @@ body {
 
 }
 
-.bx bx-down-arrow {
-    color: white;
+.meio {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+}
+
+.meio-um {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-style:groove;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.changes-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    border-style: groove;
+}
+
+.changes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
