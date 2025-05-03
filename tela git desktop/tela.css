@@ -113,3 +113,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.seta {
+    padding-left: 30%;
+
+    width: 15%;
+}
