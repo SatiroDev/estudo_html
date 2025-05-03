@@ -193,17 +193,28 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 13%;
 }
 
 .filter {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    padding-left: 2%;
 
 }
 
 .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 0.3rem 0 0 0.3rem;
     border: solid 0.1rem;
     border-color: rgb(94, 94, 94);
+    width: 35%;
+    height: 90%;
 }
