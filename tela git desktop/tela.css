@@ -18,6 +18,7 @@ body {
     height: 38vw;
     background-color: blanchedalmond;
     flex-direction: column;
+    border-radius: 1rem;
 }
 
 .cabecalho {
@@ -25,7 +26,6 @@ body {
     justify-content:space-between;
     width: 100%;
     height: 5%;
-    border-style: groove;
     background-color: rgb(48, 48, 48);
 
 }
@@ -35,9 +35,8 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 50%;
+    width: 35%;
     height: 100%;
-    border-style: groove;
     column-gap: 4%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -49,20 +48,38 @@ body {
     align-items: center;
     width: 50%;
     height: 100%;
+    column-gap: -2%;
+}
+
+.minimizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    height: 100%;
+    font-size: 1.45rem;
+    padding: 2%;
+    color: white;
+}
+
+.tela-cheia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    height: 100%;
+    font-size: 1.35rem;
+    padding: 2%;
+    color: white;
 }
 
 .sair {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5%;
+    width: 3%;
     height: 100%;
     font-size: 2rem;
     padding: 2%;
-}
-
-.bx bx-x {
-    width: 100%;
-    height: 100%;
-    
+    color: white;
 }
