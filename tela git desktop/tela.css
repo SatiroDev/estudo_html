@@ -202,7 +202,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 90%;
     padding-left: 2%;
     padding-right: 2%;
@@ -220,10 +220,16 @@ body {
     width: 35%;
     height: 90%;
     font-size: 1.2rem;
+    
+}
+
+#filt {
+    padding-top: 3%;
+    font-size: 1.5rem;
 }
 
 .filtro {
-    width: 60%;
+    width: 100%;
     height: 90%;
     border-radius: 0 0.3rem 0.3rem 0;
     border: solid 0.1rem;
