@@ -10,11 +10,23 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    justify-content: center;
-    align-items: center;
-    width: 80vh;
-    height: 50vw;
-    border-style: groove;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
+    gap: 20px;
+    padding: 20px;
+}
 
+h1 {
+    text-align: center;
+}
+.projeto {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 40px;
+    border-radius: 1rem;
+    border-style: groove;
+    transition: all 1s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
 }
