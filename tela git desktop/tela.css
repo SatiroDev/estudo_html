@@ -103,12 +103,13 @@ body {
     color: white;
     width: 25%;
     height: 100%;
+    border-color: black;
 
 }
 
 .dicionario {
     font-size: 1.2rem;
-    width: 10%;
+    width: 15%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -116,8 +117,19 @@ body {
     color: white;
 }
 
+.informacoes {
+    width: 70%;
+    height: 90%;
+
+}
 .seta {
-    padding-left: 30%;
+
     color: white;
-    width: 15%;
+    width: 25%;
+    text-align: end;
+
+}
+
+.bx bx-down-arrow {
+    color: white;
 }
