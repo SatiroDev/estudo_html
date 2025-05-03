@@ -6,7 +6,7 @@
 body {
     width: 208vh;
     height: 47vw;
-    background-color: rgb(68, 192, 120);
+    background-color: #79b4ab;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,9 +152,51 @@ body {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.bem-vindo {
-    border-style: groove;
-    width: 50%;
-    height: 100%;
+
+.botao-inicar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+    width: 40%;
+    height: 10%;
 }
 
+.iniciar-sessao {
+    background-color: #04DEA2;
+    width: 95%;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+
+.bem-vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #04DEA2;
+    text-align: center;
+    border-radius: 50% 1.5rem 1.5rem 50%;
+}
+
+.saudacao {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 280%;
+}
+
+.mensagem {
+    padding-top: 5%;
+    width: 50%;
+    height: 20%;
+}
+
+.paragrafo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
