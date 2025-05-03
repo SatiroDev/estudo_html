@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    row-gap: 5%;
+    row-gap: 1%;
     
 }
 
@@ -109,7 +109,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: groove;
+
+    width: 40%;
+    height: 5%;
+
+}
+
+.informacao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .bem-vindo {
     border-style: groove;
