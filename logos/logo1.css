@@ -59,6 +59,7 @@ body {
     width: 45%;
     height: 55%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 .twitter {
@@ -72,6 +73,7 @@ body {
     width: 45%;
     height: 55%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 .instagram {
@@ -85,6 +87,7 @@ body {
     width: 45%;
     height: 55%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 .tik-tok {
@@ -98,6 +101,7 @@ body {
     width: 45%;
     height: 55%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 
@@ -212,13 +216,37 @@ body {
     border-width: 0.13rem;
     border-color: white;
     color: white;
+    transition: all 0.3s ease;
+}
+
+.twitch:hover {
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
+    width: 50%;
+    height: 60%;
+}
+
+.twitter:hover {
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
+    width: 50%;
+    height: 60%;
+}
+
+.instagram:hover {
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
+    width: 50%;
+    height: 60%;
+}
+
+.tik-tok:hover {
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
+    width: 50%;
+    height: 60%;
 }
 
 .botao-inicar:hover {
     width: 105%;
     height: 110%;
-    box-shadow: 0rem 0rem 1rem 0.5rem rgb(136, 136, 136);
-    transition: all 0.5s ease;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(0, 0, 0);
 }
 
 .botao-registrar:hover {
