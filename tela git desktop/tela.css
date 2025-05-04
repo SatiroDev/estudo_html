@@ -9,6 +9,7 @@ body {
     align-items: center;
     width: 206vh;
     height: 48vw;
+    background-color: black;
 }
 .container {
     display: flex;
@@ -16,7 +17,7 @@ body {
     align-items: center;
     width: 150vh;
     height: 38vw;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
     border-radius: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,18 +146,19 @@ body {
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 24.8%;
-    height: 100%;
+    width: 26%;
+    height: 99.9%;
     flex-direction: column;
     border: solid 0.1rem;
     border-color:  rgb(167, 167, 167);
+    border-radius: 0  0 0 1rem ; 
 }
 
 .changes-history {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100.9%;
     height: 5%;
     padding-top: 1.2%;
 }
@@ -355,22 +357,22 @@ img {
 }
 
 .meio-dois {
-    border-style: groove;
-    width: 75%;
+
+    width: 74.9%;
     height: 100%;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    padding-left: 5%;
+    padding-left: 4%;
     padding-top: 4%;
     row-gap: 5%;
 }
 
 .meio-primeira-parte {
-    border-style: groove;
     width: 75%;
     height: 15%;
+
 }
 
 .titulo {
@@ -379,38 +381,55 @@ img {
 
 .meio-meio {
     display: flex;
-    border-style: groove;
+
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 75%;
+    width: 79%;
     height: 45%;
     flex-direction: column;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    border: solid 0.1rem;
+    border-color:  rgb(167, 167, 167);
 }
 
 .um {
-    border-style: groove;
     width: 100%;
     height: 33.33%;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
+
+}
+
+.infor-commits {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
 }
 
 .dois-parte {
-    border-style: groove;
+    border-top: solid 0.1rem ;
+    border-color:  rgb(167, 167, 167);
     width: 100%;
     height: 33.33%;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
 }
 
+.view-files {
+    padding-right: 8%;
+}
+
+
 .tres-parte {
-    border-style: groove;
+    border-top: solid 0.1rem ;
+    border-color:  rgb(167, 167, 167);
     width: 100%;
     height: 33.33%;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
 }
