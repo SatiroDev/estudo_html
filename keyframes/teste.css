@@ -25,9 +25,22 @@ body {
 
 }
 
+@keyframes sombra-pulso {
+    0% {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 50px rgba(255, 0, 0, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
 .caixa {
     width: 100px;
     height: 100px;
     background-color: blue;
-    animation: mudar-cor 4s ease-in-out infinite;
+    animation: mudar-cor 4s ease-in-out infinite, sombra-pulso 4s ease-in-out infinite;
+
 }
