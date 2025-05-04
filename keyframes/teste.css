@@ -1,0 +1,33 @@
+
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206vh;
+    height: 48vw;
+
+}
+
+
+
+@keyframes mudar-cor {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: mudar-cor 4s ease-in-out infinite;
+}

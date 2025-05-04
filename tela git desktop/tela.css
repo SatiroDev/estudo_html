@@ -11,6 +11,7 @@ body {
     height: 49vw;
     background-color: black;
 }
+
 .container {
     display: flex;
     justify-content: start;
@@ -433,3 +434,4 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
