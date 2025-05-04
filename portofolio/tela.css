@@ -24,20 +24,21 @@ body {
 
 .cabecalho {
     width: 100%;
-    height: 5%;
+    height: 10%;
     border: solid 0.1rem;
     display: flex;
     justify-content: start;
     align-items: center;
     background-color: rgb(39, 39, 39);
     border: 0;
+    padding-top: 2%;
 
 }
 
 .cabecalho-funcoes {
 
     width: 7%;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,18 +85,41 @@ body {
     row-gap: 5%;
 }
 
+.nome-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    width: 100%;
+    height: 80%;
+    padding-top: 5%;
+}
 .nome {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 30%;
     height: 50%;
-    padding-left: 5%;
-    padding-top: 5%;
+
     row-gap: 5%;
     color: white;
 
 }
+
+.imagem {
+    width: 50%;
+    height: 100%;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem.ghibi {
+    width: 10%;
+    height: 10%;
+    border-style: groove;
+}
+
 
 .p-nome {
     font-weight: 100;
