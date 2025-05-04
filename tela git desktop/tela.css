@@ -271,11 +271,13 @@ body {
 
 .rodape {
     width: 100%;
-    height: 35%;
+    height: 38%;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    padding-left: 5%;
+    row-gap: 2%;
 }
 
 .primeira-parte {
@@ -289,16 +291,17 @@ body {
 
 .logo {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    width: 15%;
+    width: 17%;
     height: 100%;
     padding-top: 1%;
     padding-left: 2%;
+
 }
 
 img {
-    width: 65%;
+    width: 60%;
     height: 70%;
     border-radius: 2rem 2rem 2rem 2rem;
 }
@@ -307,7 +310,26 @@ img {
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     border: solid 0.1rem;
     border-color:  rgb(167, 167, 167);
-    width: 75%;
+    width: 69%;
     height: 70%;
     padding-left: 2%;
+}
+
+.descricao {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    border: solid 0.1rem;
+    border-color:  rgb(167, 167, 167);
+    background-color: white;
+    
+
+}
+
+.desc {
+    border: 0;
+    padding-left: 5%;
 }
