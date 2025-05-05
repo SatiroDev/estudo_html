@@ -73,23 +73,115 @@ body {
 }
 
 .main {
-    border-style: groove;
     width: 100%;
     height: 98%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-
 }
 
 .descricao {
-    border-style: groove;
+    padding-left: 3%;
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    row-gap: 2%;
 }
 
-.infomacoes {
-    border-style: groove;
+.titulo {
+    width: 20%;
+    height:5% ;
+}
+.desc1 {
+    width: 80%;
+    height: 10%;
+}
+
+.desc {
+    width: 80%;
+    height: 15%;
+}
+.informacoes {
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.enfeite {
+
+    width: 16%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10%;
+
+}
+
+.enfeite1 {
+
+    width: 16%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10%;
+    padding-top: 10%;
+}
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 85%;
+    border-style: groove;
+    border-radius: 4rem 4rem 4rem 4rem;
+}
+
+.ende {
+    font-size: 1.5rem;
+}
+
+.circulo {
+    border-style: groove;
+    width: 80%;
+    height: 25%;
+    border-radius: 5rem 5rem 5rem 5rem;
+}
+
+.enfeite-oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 16%;
+    height: 50%;
+
+    padding-top: 5%;
+}
+
+.oval {
+    width: 80%;
+    height: 100%;
+    border-style: groove;
+    border-radius: 4rem 4rem 4rem 4rem;
+    
+}
+
+.circulo1 {
+    width: 80%;
+    height: 75%;
+    border-style: groove;
+    border-radius: 4rem 4rem 4rem 4rem;
 }
