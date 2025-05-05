@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(#686e74,#343a40, #212529 );
+    width: 208vh;
+    height: 47vw;
+}
+
+
+
+.sessao2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:sans-serif;
+}
+
+.cabecalho {
+    width: 101.1%;
+    height: 5%;
+    border: solid 0.1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    border: 0;
+}
+
+.cabecalho-funcoes {
+
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    color: white;
+    text-decoration: none; 
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding-top: 15%;
+    transition: all 0.2s ease;
+}
+
+.about {
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding-top: 15%;
+    transition: all 0.2s ease;
+
+}
+
+.portofolio {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding-top: 15%;
+    transition: all 0.2s ease;
+}
+
+.main {
+    border-style: groove;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.descricao {
+    border-style: groove;
+    width: 50%;
+    height: 100%;
+}
+
+.infomacoes {
+    border-style: groove;
+    width: 50%;
+    height: 100%;
+}
