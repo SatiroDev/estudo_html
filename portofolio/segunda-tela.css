@@ -147,6 +147,7 @@ body {
     height: 85%;
     border-style: groove;
     border-radius: 4rem 4rem 4rem 4rem;
+    transition: all 0.2s ease;
 }
 
 .ende {
@@ -154,10 +155,12 @@ body {
 }
 
 .circulo {
-    border-style: groove;
+
     width: 80%;
     height: 25%;
     border-radius: 5rem 5rem 5rem 5rem;
+    transition: all 0.2s ease;
+    background-color: white;
 }
 
 .enfeite-oval {
@@ -176,6 +179,8 @@ body {
     height: 100%;
     border-style: groove;
     border-radius: 4rem 4rem 4rem 4rem;
+    transition: all 0.2s ease;
+    background-color: black;
     
 }
 
@@ -184,4 +189,119 @@ body {
     height: 75%;
     border-style: groove;
     border-radius: 4rem 4rem 4rem 4rem;
+    transition: all 0.1s ease;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+
+
+.home:hover {
+    transform: scale(1.1);
+    animation: cor-fundo 0.5s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+
+.about:hover {
+    transform: scale(1.1);
+    animation: cor-fundo 0.5s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+
+}
+.portofolio:hover {
+    transform: scale(1.1);
+    animation: cor-fundo 0.5s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+
+.endereco:hover {
+    transform: scale(1.1);
+    animation: cor-fundo 0.5s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+
+.oval:hover {
+    animation: tamanho-largura 2s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+
+.circulo:hover {
+    animation: borda 2s linear infinite;
+    box-shadow: 0rem 0.2rem 0.5rem 0.2rem rgb(114, 114, 114);
+}
+.circulo1:hover {
+    animation: borda 2s linear infinite;
+}
+
+@keyframes borda {
+    0% {
+        border-radius: 5rem 5rem 5rem 2rem;
+    }
+
+    10% {
+        border-radius: 2rem 5rem 5rem 5rem;
+    }
+
+    20% {
+        border-radius: 2rem 2rem 5rem 5rem;
+    }
+
+    30% {
+        border-radius: 5rem 2rem 2rem 5rem;
+    }
+
+    40% {
+        border-radius: 5rem 5rem 2rem 2rem;
+    }
+    50% {
+        border-radius: 2rem 5rem 5rem  2rem;
+    }
+    60% {
+        border-radius:  2rem 2rem 5rem 5rem;
+    }
+    70% {
+        border-radius: 5rem 2rem 2rem 5rem;
+    }
+    80% {
+        border-radius: 5rem 5rem  2rem 2rem;
+    }
+    90% {
+        border-radius: 2rem  5rem 5rem 2rem;
+    }
+    100% {
+        border-radius: 2rem 2rem 5rem 5rem;
+    }
+}
+
+@keyframes tamanho-largura {
+    0% {
+        width: 80%;
+        height: 70%;
+    }
+    25% {
+        width: 90%;
+        height: 60%;
+    }
+    50% {
+        width: 60%;
+        height: 100%;
+    }
+    100% {
+        width: 80%;
+        height: 70%;
+    }
+}
+
+
+@keyframes cor-fundo {
+    0% {
+        background-image: linear-gradient(to right, rgb(105, 105, 105), rgb(56, 56, 56));
+    }
+    25% {
+        background-image: linear-gradient(to top,rgb(105, 105, 105), rgb(56, 56, 56));
+    }
+    75% {
+        background-image: linear-gradient(to left, rgb(105, 105, 105), rgb(56, 56, 56));
+    }
+    100% {
+        background-image: linear-gradient(rgb(105, 105, 105), rgb(56, 56, 56));
+    }
 }
