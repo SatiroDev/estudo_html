@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(90, 104, 99);
     
     
     width: 206vh;
@@ -27,7 +27,7 @@ body {
     
     border-radius: 50%;
     row-gap: 50%;
-    border-style: groove;
+
 }
 
 
@@ -44,6 +44,7 @@ body {
     background-color: white;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
     transition: all 0.5s ease;
+    color: rgb(189, 85, 163);
 }
 
 .container .twitter {
@@ -56,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-
+    color: rgb(0, 183, 255);
     left: 52%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
     transition: all 0.5s ease;
@@ -118,7 +119,7 @@ body {
 .instagram:hover {
     transform: scale(1.1);
     color: white;
-    background-color: pink;
+    background-color: rgb(189, 85, 163);
 }
 
 .git:hover {
