@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    
+    
+    width: 206vh;
+
+    
+    height: 45vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    
+    border-radius: 50%;
+    row-gap: 50%;
+    border-style: groove;
+}
+
+
+.container .instagram {
+    
+    border-radius: 100% 10% 10% 10%;
+    position:absolute;
+    width: 48%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: white;
+    box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+}
+
+.container .twitter {
+    background-color: white;
+    border-radius: 10% 100% 10% 10%;
+    position:absolute;
+    width: 48%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transform: translate(100%);
+    left: 5%;
+    box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+}
+
+.container .discord {
+    background-color: white;
+    border-radius: 10% 10% 100%  10%;
+    position:absolute;
+    width: 48%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transform: translate(100%);
+    top: 52%;
+    left: 5%;
+    box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+
+}
+
+.container .git {
+    background-color: white;
+    border-radius: 10% 10% 10% 100% ;
+    position:absolute;
+    width: 48%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    top: 52%;
+    box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+
+    
+}
+
+.instagram i {
+    padding-top: 10%;
+}
+
+.twitter i {
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.git i {
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+.discord i {
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+
+.container:hover .instagram {
+    transform: scale(1.05);
+}
