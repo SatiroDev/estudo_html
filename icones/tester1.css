@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(90, 104, 99);
+    background-color: rgb(0, 0, 0);
     
     
     width: 206vh;
@@ -43,7 +43,7 @@ body {
     font-size: 3rem;
     background-color: white;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     color: rgb(189, 85, 163);
 }
 
@@ -60,7 +60,7 @@ body {
     color: rgb(0, 183, 255);
     left: 52%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .container .discord {
@@ -76,7 +76,7 @@ body {
     top: 52%;
     left: 52%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     color: rgb(55, 124, 189);
 }
 
@@ -92,13 +92,15 @@ body {
     font-size: 3rem;
     top: 52%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 
     
 }
 
 .instagram i {
-    padding-top: 10%;
+    padding-top: 15%;
+    padding-left: 5%;
+
 }
 
 .twitter i {
@@ -108,7 +110,7 @@ body {
 
 .git i {
     padding-bottom: 10%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .discord i {
