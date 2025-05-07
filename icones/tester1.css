@@ -43,6 +43,7 @@ body {
     font-size: 3rem;
     background-color: white;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+    transition: all 0.5s ease;
 }
 
 .container .twitter {
@@ -58,6 +59,7 @@ body {
     transform: translate(100%);
     left: 5%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+    transition: all 0.5s ease;
 }
 
 .container .discord {
@@ -74,6 +76,7 @@ body {
     top: 52%;
     left: 5%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+    transition: all 0.5s ease;
 
 }
 
@@ -89,6 +92,7 @@ body {
     font-size: 3rem;
     top: 52%;
     box-shadow: 0rem 0.2rem 0.1rem 0.1rem rgb(116, 116, 116) ;
+    transition: all 0.5s ease;
 
     
 }
@@ -112,6 +116,18 @@ body {
     padding-right: 10%;
 }
 
-.container:hover .instagram {
-    transform: scale(1.05);
+.instagram:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: pink;
+}
+
+.git:hover {
+    transform: scale(1.1);
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+    transform: translate(100%);
+    
 }
