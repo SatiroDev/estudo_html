@@ -99,23 +99,23 @@ body {
 
 .instagram i {
     padding-top: 15%;
-    padding-left: 5%;
+    padding-left: 10%;
 
 }
 
 .twitter i {
-    padding-top: 10%;
-    padding-right: 10%;
+    padding-top: 15%;
+    padding-right: 15%;
 }
 
 .git i {
     padding-bottom: 10%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .discord i {
     padding-bottom: 10%;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .instagram:hover {
