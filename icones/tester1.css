@@ -32,7 +32,7 @@ body {
 
 
 .container .link-insta {
-    
+    text-decoration: none; 
     border-radius: 100% 10% 10% 10%;
     position:absolute;
     width: 48%;
